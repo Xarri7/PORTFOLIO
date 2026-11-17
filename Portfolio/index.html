@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050505">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'sha384-HOvlOYPIs/zjoIkWUGXkVmXsjr8GuZLV+Q+rcPwmJOVZVpvTSXQChiN4t9Euv9Vc' 'sha384-P8VzCVnT9NBUkMrpcIZrJbA7EBjJvh/fJS6PmP+4nLIM284DtsImIv8D0fFjIkeh'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests">
+  <meta name="description" content="XK Creative Duo — digital-дизайн и frontend-разработка. Создаём выразительные сайты и цифровые продукты.">
+  <link rel="canonical" href="./">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="XK Creative Duo — дизайн и разработка">
+  <meta property="og:description" content="XK Creative Duo — digital-дизайн и frontend-разработка. Создаём выразительные сайты и цифровые продукты.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="./">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="XK Creative Duo — дизайн и frontend-разработка">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="XK Creative Duo — дизайн и разработка">
+  <meta name="twitter:description" content="XK Creative Duo — digital-дизайн и frontend-разработка. Создаём выразительные сайты и цифровые продукты.">
+  <meta name="twitter:image" content="assets/og-image.jpg">
+  <title>XK Creative Duo — цифровой дизайн и разработка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha384-HOvlOYPIs/zjoIkWUGXkVmXsjr8GuZLV+Q+rcPwmJOVZVpvTSXQChiN4t9Euv9Vc" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha384-P8VzCVnT9NBUkMrpcIZrJbA7EBjJvh/fJS6PmP+4nLIM284DtsImIv8D0fFjIkeh" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="XK Creative Duo — главная"><span class="wordmark-mark">XK</span><span class="wordmark-name">CREATIVE<br>DUO</span></a>
+    <a class="mobile-contact" href="#contact">Контакты <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Открыть меню"><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Основная навигация">
+      <a class="nav-link is-current" href="#main" aria-current="location">Главная</a>
+      <a class="nav-link" href="#styles">Стили</a>
+      <a class="nav-link" href="#services">Услуги</a>
+      <a class="nav-link" href="#contact">Контакты</a>
+      <a class="nav-contact" href="https://t.me/Xk_xom" target="_blank" rel="noopener noreferrer">Обсудить проект <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero home-hero">
+      <div class="hero-copy">
+        <p class="eyebrow hero-reveal"><span class="status-dot"></span> XK Creative Duo</p>
+        <h1 class="hero-title hero-reveal"><span>Создаём</span><span>цифровой опыт,</span><span>который <span class="text-muted">говорит</span></span><span>сам за себя.</span></h1>
+        <div class="hero-bottom hero-reveal">
+          <p>Digital design &amp; frontend development.<br>Объединяем визуальную эстетику и функциональность.</p>
+          <a class="button button-light" href="#styles">Смотреть стили <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <figure class="hero-art hero-art-reveal"><img src="assets/xk-logo-transparent.webp" alt="Логотип XK Creative Duo"></figure>
+      <a class="scroll-cue" href="#styles"><span></span> Листайте вниз</a>
+    </section>
+
+    <section class="section featured-section" id="styles">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">01 / Стили</p><h2>Выберите визуальный<br><span class="text-muted">язык.</span></h2></div>
+        <span class="style-count">03 направления</span>
+      </div>
+      <div class="style-grid">
+        <article class="style-card reveal">
+          <div class="style-preview style-preview-minimal" role="img" aria-label="Минималистичный макет сайта магазина интерьерных объектов">
+            <div class="mock-browser"><span></span><span></span><span></span><b>maison-form.com</b></div>
+            <div class="mock-minimal"><div class="mock-minimal-nav">MAISON FORM <span>COLLECTION &nbsp;&nbsp; ABOUT</span></div><div class="mock-minimal-main"><div><small>FORM MEETS FUNCTION</small><strong>Objects<br>to live with.</strong><i>Discover the collection&nbsp; ↗</i></div><div class="mock-minimal-object"></div></div><div class="mock-minimal-foot">CONSIDERED DESIGN <span>01 — 04</span></div></div>
+          </div>
+          <div class="style-card-meta"><div><span class="eyebrow">01 / Спокойный</span><h3>Минимализм</h3><p>Для портфолио, архитектуры и брендов с фокусом на продукте.</p></div></div>
+          <a class="text-link style-contact" href="https://t.me/Xk_xom" target="_blank" rel="noopener noreferrer">Выбрать направление <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="style-card reveal">
+          <div class="style-preview style-preview-editorial" role="img" aria-label="Редакционный макет сайта журнала о культуре">
+            <div class="mock-browser"><span></span><span></span><span></span><b>common-ground.media</b></div>
+            <div class="mock-editorial"><div class="mock-editorial-nav">COMMON GROUND <span>ISSUE 08 &nbsp;&nbsp; CULTURE &nbsp;&nbsp; NOTES</span></div><div class="mock-editorial-main"><div><small>THE SLOW ISSUE &nbsp; · &nbsp; 2025</small><strong>A quieter<br>kind of <em>bold.</em></strong><i>Stories for a world in motion&nbsp; ↗</i></div><div class="mock-editorial-art"><span>08</span></div></div><div class="mock-editorial-foot">INDEPENDENT CULTURE JOURNAL</div></div>
+          </div>
+          <div class="style-card-meta"><div><span class="eyebrow">02 / С характером</span><h3>Редакционный</h3><p>Для журналов, культурных проектов и авторских пространств.</p></div></div>
+          <a class="text-link style-contact" href="https://t.me/Xk_xom" target="_blank" rel="noopener noreferrer">Выбрать направление <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="style-card reveal">
+          <div class="style-preview style-preview-expressive" role="img" aria-label="Выразительный макет сайта независимого модного бренда">
+            <div class="mock-browser"><span></span><span></span><span></span><b>loud-enough.studio</b></div>
+            <div class="mock-expressive"><div class="mock-expressive-nav">LOUD ENOUGH® <span>SHOP &nbsp;&nbsp; ABOUT &nbsp;&nbsp; BAG (0)</span></div><div class="mock-expressive-main"><small>NOT HERE TO BLEND IN</small><strong>MAKE<br>YOUR<br><i>NOISE.</i></strong><div class="mock-expressive-stamp">NEW<br>DROP<br>№ 03 ↗</div></div><div class="mock-expressive-foot">INDEPENDENT BY NATURE <span>EST. 2025</span></div></div>
+          </div>
+          <div class="style-card-meta"><div><span class="eyebrow">03 / Смелый</span><h3>Выразительный</h3><p>Для новых брендов, музыки и проектов, которым важно выделиться.</p></div></div>
+          <a class="text-link style-contact" href="https://t.me/Xk_xom" target="_blank" rel="noopener noreferrer">Выбрать направление <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">02 / Что делаем</p><h2>От идеи до<br><span class="text-muted">работающего сайта.</span></h2></div>
+        <p class="services-intro">Дизайн и разработка в одном процессе — без потери смысла между макетом и готовым продуктом.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal"><span class="service-number">01</span><h3>Структура и UX</h3><p>Продумываем сценарии, содержание и навигацию, чтобы посетителю было легко найти главное.</p></article>
+        <article class="service-card reveal"><span class="service-number">02</span><h3>Визуальный дизайн</h3><p>Подбираем типографику, цвет и композицию, чтобы сайт отражал характер бренда.</p></article>
+        <article class="service-card reveal"><span class="service-number">03</span><h3>Frontend и запуск</h3><p>Собираем адаптивный сайт, подключаем ссылки и нужные сервисы, проверяем на разных экранах.</p></article>
+      </div>
+      <div class="process reveal">
+        <p class="eyebrow">Как проходит работа</p>
+        <div class="process-steps">
+          <div class="process-step"><span>01</span><p>Обсуждаем задачу</p></div>
+          <div class="process-step"><span>02</span><p>Собираем направление</p></div>
+          <div class="process-step"><span>03</span><p>Дизайним и разрабатываем</p></div>
+          <div class="process-step"><span>04</span><p>Проверяем и запускаем</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band reveal" id="contact">
+      <div><p class="eyebrow">03 / Следующий шаг</p><h2>Есть идея?<br><span class="text-muted">Напишите нам.</span></h2><p class="contact-note">Расскажите о задаче в Telegram — обсудим, чем можем помочь.</p></div>
+      <a class="button button-light" href="https://t.me/Xk_xom" target="_blank" rel="noopener noreferrer">Открыть Telegram <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark footer-wordmark" href="./"><span class="wordmark-mark">XK</span><span class="wordmark-name">CREATIVE<br>DUO</span></a>
+    <p>Дизайн с намерением.<br>Код с вниманием.</p>
+    <div class="footer-links"><a href="https://github.com/Xarri7" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://t.me/Xk_xom" target="_blank" rel="noopener noreferrer">Telegram ↗</a></div>
+    <span class="copyright">© <span data-year></span> XK Creative Duo</span>
+  </footer>
+</body>
+</html>
